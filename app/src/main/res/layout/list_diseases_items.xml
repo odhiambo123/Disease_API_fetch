@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image"
+        android:src="@android:drawable/btn_star_big_on"
+
+        tools:ignore="ImageContrastCheck"/>
+
+    <TextView
+        android:id="@+id/disease_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/disease_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/disease_id"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/disease_updated_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/disease_name"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/disease_symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/disease_facts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

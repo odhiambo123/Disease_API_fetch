@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewPage</string>
+    <string name="image" />
+    <string name="id">id</string>
+    <string name="spaceForDate">----------</string>
+    <string name="idLabel">ID :</string>
+    <string name="spaceForId">----------</string>
+    <string name="nameLabel">Name :</string>
+    <string name="spaceForName">----------</string>
+    <string name="dateLabel">Date :</string>
+    <string name="symptomsLabel">----------</string>
+    <string name="symptom">symptoms</string>
+    <string name="spaceForSymptoms">----------</string>
+    <string name="facts">Facts:</string>
+    <string name="spaceForFacts">-------------------------</string>
+    <string name="submit">Submit</string>
+</resources>
